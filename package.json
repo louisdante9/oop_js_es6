@@ -1,0 +1,21 @@
+{
+  "name": "oop",
+  "version": "1.0.0",
+  "description": "this is an OOP implementation of modelling a real-world scenario/problem, while taking advantage of inheritance, encapsulation, polymorphism and the other OOP concepts",
+  "main": "app.js",
+  "scripts": {
+    "test": "cross-env ./node_modules/mocha/bin/mocha test/*.js --require babel-register --reporter spec || exit 0"
+  },
+  "author": "louis",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "cross-env": "^5.0.1"
+  }
+}
